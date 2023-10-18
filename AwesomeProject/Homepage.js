@@ -1,18 +1,31 @@
 import React from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 
-const DirectoryHome = ({ navigation }) => {
+const MyNewPage = () => {
+  const navigation = useNavigation();
+
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Welcome to the Directory App</Text>
-      <Text style={styles.description}>
-        Find and connect with people and businesses.
-      </Text>
+      <Text style={styles.title}>Welcome to My New Page</Text>
+      <Text style={styles.description}>This is a custom page for your app.</Text>
       <Button
+        title='Go Back'
+        color="#D89F00"
+        onPress={() => navigation.goBack()}
+        accessibilityLabel="Go back to the previous screen"
+      />
+       <Button
         title="Browse Directory"
         color="#D89F00"
         onPress={() => navigation.navigate('Directory')}
         accessibilityLabel="Browse the directory"
+      />
+       <Button
+        title="I am Gay"
+        color="#D89F00"
+        onPress={() => navigation.navigate('Directory')}
+        accessibilityLabel="I am Gay"
       />
     </View>
   );
@@ -35,8 +48,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     color: 'gray',
     marginBottom: 32,
-    textAlign: 'center',
   },
 });
 
-export default DirectoryHome;
+export default MyNewPage;
