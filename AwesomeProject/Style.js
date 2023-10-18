@@ -8,10 +8,13 @@ export const customStyles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'left', // Center the content horizontally
   },
-  icon: {
+  iconContainer: {
+    
+    justifyContent: 'center',
     alignItems: 'center',
-    alignContent: 'center',
-    paddingHorizontal: 15,
+  },
+
+  icon: {
     width: 100,
     height: 100,
   },
