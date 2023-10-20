@@ -27,13 +27,11 @@ export default function App() {
 
   function LoginScreen({ navigation }) {
     return (
-      <View style={styles.container}>
+      <View style={styles.container} onStartShouldSetResponder={() => true}>
        <View style={styles.iconContainer}>
           <Image style={styles.icon} source={require('./assets/favicon.png')} />
           <Text style={styles.red}>CleanOro</Text>
         </View>
-
-       
         {/* Username */}
         <Text style={styles.inputLabel}>Email or Username</Text>
         <View style={styles.inputContainer}>
@@ -42,8 +40,7 @@ export default function App() {
             keyboardType='email-address'
             autoComplete='email'
             placeholder='Type your email username'
-            value={username}
-            onChangeText={(text) => setUsername(text)}
+       
           />
         </View>
         {/* Password */}
@@ -51,12 +48,9 @@ export default function App() {
         <View style={styles.inputContainer}>
           <TextInput
             style={styles.input}
-            autoComplete='password'
-            keyboardType='ascii-capable'
             placeholder='Type your password'
             secureTextEntry={!isPasswordVisible}
-            value={password}
-            onChangeText={(text) => setPassword(text)}
+        
           />
           <TouchableOpacity onPress={togglePasswordVisibility} style={styles.eyeIcon}>
             <Icon name={isPasswordVisible ? 'eye' : 'eye-slash'} size={20} />
@@ -74,3 +68,4 @@ export default function App() {
     );
   }
 }
+ 
