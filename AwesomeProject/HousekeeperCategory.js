@@ -1,15 +1,19 @@
-// HousekeeperCategory.js
+// PersonDetails.js
+import React from "react";
+import { View, Text } from "react-native";
 
-import React from 'react';
-import { View, Text } from 'react-native';
+const PersonDetails = ({ route }) => {
+  const { personId } = route.params;
+  // Fetch and display person details based on the personId
 
-const HousekeeperCategory = () => {
   return (
     <View>
-      <Text>Housekeeper Cleaners</Text>
-      {/* Render the list of Housekeeper cleaners here */}
+      <Text>Person Details for ID: {personId}</Text>
+      {/* Display person details here */}
     </View>
   );
 };
 
-export default HousekeeperCategory;
+// Add more job titles as needed
+
+export default PersonDetails;
