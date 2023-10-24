@@ -9,7 +9,7 @@ import {
 } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
-import { customStyles as styles } from "./style";
+import { customStyles as styles } from "./Style";
 import MyNewPage from "./Homepage";
 import Icon from "react-native-vector-icons/FontAwesome";
 

@@ -12,6 +12,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 import PagerView from "react-native-pager-view";
 import { FlatGrid } from "react-native-super-grid";
 import PersonDetails from "./HousekeeperCategory.js";
+import Profile from "./Profile.js";
 
 const Stack = createStackNavigator();
 
@@ -37,12 +38,18 @@ const data = [
   <Stack.Screen name="MyNewPage" component={MyNewPage} />
   <Stack.Screen name="PersonDetails" component={PersonDetails} />
   <Stack.Screen name="Housekeeper" component={PersonDetails} />
+  <Stack.Screen name="Profile" component={Profile} />
 </Stack.Navigator>;
 
 const itemsPerPage = 8; // 4 items per page
 
 const MyNewPage = () => {
   const navigation = useNavigation();
+
+  const goToProfile = () => {
+    navigation.navigate("Profile"); // 'Profile' should be the name of you profile screen in the the navigation stack
+  };
+
   const [currentPage, setCurrentPage] = useState(0);
 
   const pageData = [];
@@ -128,8 +135,8 @@ const MyNewPage = () => {
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.navigationButton}
-          onPress={() => Alert.alert("Profile button clicked")}
-          accessibilityLabel="Learn more about this purple button"
+          onPress={() => navigation.navigate("Profile")}
+          accessibilityLabel="Navigate to Profile"
         >
           <Text style={styles.navigationButtonText}>Profile</Text>
         </TouchableOpacity>
