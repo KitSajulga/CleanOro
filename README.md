@@ -1,6 +1,9 @@
 ![chat-right-text-fill](https://github.com/KitSajulga/CleanOro/assets/124012338/7af4a2fe-3d36-4651-ab9d-a1fa6a85bc5d)𝕎𝔼𝕃ℂ𝕆𝕄𝔼 𝕋𝕆 𝕋ℍ𝔼 ℂ𝕃𝔼𝔸ℕ𝕆ℝ𝕆 𝕆𝔽𝔽𝕀ℂ𝕀𝔸𝕃 ℝ𝔼ℙ𝕆𝕊𝕀𝕋𝕆ℝ𝕐!
 THE FILES ARE LOCATED INSIDE THE "AWESOMEPROJECT" FOLDER
 
+https://git-scm.com/downloads
+TO CONTINUE ON DEVELOPMENT, CLONE THIS REPOSITORY USING GIT CLONE
+>git clone https://github.com/KitSajulga/CleanOro.git
 
 DEPENDENCIES NEED TO BE INSTALLED:
 Install these in MyAwesomeProject folder
