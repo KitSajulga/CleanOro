@@ -1,8 +1,6 @@
 𝕎𝔼𝕃ℂ𝕆𝕄𝔼 𝕋𝕆 𝕋ℍ𝔼 ℂ𝕃𝔼𝔸ℕ𝕆ℝ𝕆 𝕆𝔽𝔽𝕀ℂ𝕀𝔸𝕃 ℝ𝔼ℙ𝕆𝕊𝕀𝕋𝕆ℝ𝕐!
 
-
-
-l![1](https://github.com/KitSajulga/CleanOro/assets/124012338/fb61ae15-0bff-41eb-9bd6-762ef6c98897)
+![1](https://github.com/KitSajulga/CleanOro/assets/124012338/fb61ae15-0bff-41eb-9bd6-762ef6c98897)
 ![2](https://github.com/KitSajulga/CleanOro/assets/124012338/4fc63989-0821-4ac9-8a28-1ad42bb2342c)
 ![3](https://github.com/KitSajulga/CleanOro/assets/124012338/cb238e5e-6bea-4b49-af9f-bce3fa2cb2e1)
 ![4](https://github.com/KitSajulga/CleanOro/assets/124012338/089e011c-742c-436d-b6b8-ff83ad6a41c1)
